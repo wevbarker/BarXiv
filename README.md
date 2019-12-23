@@ -4,7 +4,7 @@
 ---
 ###### :train2: Itinerary :ship:
 ![alt text](prearxiv.png)
-basic list
+
 - basic list 
   - subitem 
   -  [here](hyperlink). 
