@@ -2,7 +2,16 @@
 ## Beamer arXiv citations that catch the eye 
 ---
 ### Install and use
-
+1. First make sure `pdflatex` is handling your `.bib` file correctly (you can check with a `\cite{}` command), in my case I need to avoid `biber` (current incompatability through `TexLive`), so in my `.tex` file:
+```
+\usepackage[backend=bibtex,maxcitenames=1]{biblatex}
+\addbibresource{<my_bibfile_name>.bib}
+```
+2. Download `barxiv.sty` and `barxiv_icons` to your `.tex` and `.bib` directory and add this to the *end* of your preamble:
+```
+\usepackage{barxiv}
+```
+3. Try putting `\barxiv{}` in place of `\cite{}`, twiddle the various options...
 ---
 ### Demonstration 
 Here is a simple `beamer` frame to illustrate `barxiv` in use:
