@@ -1,0 +1,525 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{Ashtekar_1991}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AA}{%
+         family={Ashtekar},
+         familyi={A\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=SJ}{%
+         family={Samuel},
+         familyi={S\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{AA+1}
+    \strng{fullhash}{AASJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    The role of spatial topology in the Hamiltonian description of Bianchi
+  models is analysed. It turns out that, in general, the number of degrees of
+  freedom of these models is not uniquely determined by the isometry group but
+  depends in addition on the choice of topology. Consequently, the quantum
+  theory is quite sensitive to this choice. Contrary to one's initial
+  expectation, subtleties arise in the spatially open models-say with topology
+  R3-rather than closed. Finally, it is shown that class B models cannot occur
+  with closed topologies.%
+    }
+    \verb{doi}
+    \verb 10.1088/0264-9381/8/12/005
+    \endverb
+    \field{number}{12}
+    \field{pages}{2191\bibrangedash 2215}
+    \field{title}{Bianchi cosmologies: the role of spatial topology}
+    \verb{url}
+    \verb https://doi.org/10.1088%2F0264-9381%2F8%2F12%2F005
+    \endverb
+    \field{volume}{8}
+    \field{journaltitle}{Classical and Quantum Gravity}
+    \field{year}{1991}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{2017CQGra..34p7001B}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BW}{%
+         family={{Barker}},
+         familyi={B\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \keyw{General Relativity and Quantum Cosmology}
+    \strng{namehash}{BW1}
+    \strng{fullhash}{BW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1088/1361-6382/aa7da9
+    \endverb
+    \field{eid}{167001}
+    \verb{eprint}
+    \verb 1612.00905
+    \endverb
+    \field{number}{16}
+    \field{pages}{167001}
+    \field{title}{{Effects of the circularly polarized beam of linearized
+  gravitational waves}}
+    \field{volume}{34}
+    \field{journaltitle}{Classical and Quantum Gravity}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{gr-qc}
+    \field{year}{2017}
+  \endentry
+
+  \entry{2017CQGra..34t5006B}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BW}{%
+         family={{Barker}},
+         familyi={B\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={{Ledvinka}},
+         familyi={L\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={{Lynden-Bell}},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={{Bi{\v{c}}{\'a}k}},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{General Relativity and Quantum Cosmology}
+    \strng{namehash}{BW+1}
+    \strng{fullhash}{BWLTLDBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1088/1361-6382/aa8a34
+    \endverb
+    \field{eid}{205006}
+    \verb{eprint}
+    \verb 1710.10360
+    \endverb
+    \field{number}{20}
+    \field{pages}{205006}
+    \field{title}{{Rotation of inertial frames by angular momentum of matter
+  and waves}}
+    \field{volume}{34}
+    \field{journaltitle}{Classical and Quantum Gravity}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{gr-qc}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{2019JMP....60e2504B}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BWEV}{%
+         family={{Barker}},
+         familyi={B\bibinitperiod},
+         given={W.\bibnamedelima E.\bibnamedelima V.},
+         giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  V\bibinitperiod},
+      }}%
+      {{hash=LAN}{%
+         family={{Lasenby}},
+         familyi={L\bibinitperiod},
+         given={A.\bibnamedelima N.},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=HMP}{%
+         family={{Hobson}},
+         familyi={H\bibinitperiod},
+         given={M.\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=HWJ}{%
+         family={{Hand ley}},
+         familyi={H\bibinitperiod},
+         given={W.\bibnamedelima J.},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{General Relativity and Quantum Cosmology}
+    \strng{namehash}{BWEV+1}
+    \strng{fullhash}{BWEVLANHMPHWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1063/1.5082730
+    \endverb
+    \field{eid}{052504}
+    \verb{eprint}
+    \verb 1811.09844
+    \endverb
+    \field{number}{5}
+    \field{pages}{052504}
+    \field{title}{{Static energetics in gravity}}
+    \field{volume}{60}
+    \field{journaltitle}{Journal of Mathematical Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{gr-qc}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Einstein:1905ve}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EA}{%
+         family={Einstein},
+         familyi={E\bibinitperiod},
+         given={Albert},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EA1}
+    \strng{fullhash}{EA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1002/andp.200590006
+    \endverb
+    \field{pages}{891\bibrangedash 921}
+    \field{title}{{On the electrodynamics of moving bodies}}
+    \field{volume}{17}
+    \field{journaltitle}{Annalen Phys.}
+    \field{year}{1905}
+  \endentry
+
+  \entry{1985AmJPh..53..510H}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HD}{%
+         family={{Hestenes}},
+         familyi={H\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={{Sobczyk}},
+         familyi={S\bibinitperiod},
+         given={Garret},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MJS}{%
+         family={{Marsh}},
+         familyi={M\bibinitperiod},
+         given={James\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \keyw{01.30.Pp, 02.10.Rn, 02.10.Sp}
+    \strng{namehash}{HD+1}
+    \strng{fullhash}{HDSGMJS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1119/1.14223
+    \endverb
+    \field{number}{5}
+    \field{pages}{510\bibrangedash 511}
+    \field{title}{{Clifford Algebra to Geometric Calculus. A Unified Language
+  for Mathematics and Physics}}
+    \field{volume}{53}
+    \field{journaltitle}{American Journal of Physics}
+    \field{year}{1985}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{1975NCimB..28..127K}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KM}{%
+         family={{Kasuya}},
+         familyi={K\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Einstein Equations, Field Theory (Physics), Relativity, Space-Time
+  Functions, Conservation Laws, Invariance, Transformations (Mathematics),
+  Physics (General)}
+    \strng{namehash}{KM1}
+    \strng{fullhash}{KM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1007/BF02722810
+    \endverb
+    \field{pages}{127\bibrangedash 137}
+    \field{title}{{On the gauge theory in the Einstein-Cartan-Weyl space-time}}
+    \field{volume}{28}
+    \field{journaltitle}{Nuovo Cimento B Serie}
+    \field{year}{1975}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{1961JMP.....2..212K}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KTWB}{%
+         family={{Kibble}},
+         familyi={K\bibinitperiod},
+         given={T.\bibnamedelima W.\bibnamedelima B.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KTWB1}
+    \strng{fullhash}{KTWB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1063/1.1703702
+    \endverb
+    \field{pages}{212\bibrangedash 221}
+    \field{title}{{Lorentz Invariance and the Gravitational Field}}
+    \field{volume}{2}
+    \field{journaltitle}{Journal of Mathematical Physics}
+    \field{year}{1961}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{lasenby-doran-heineke-2005}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LAN}{%
+         family={{Lasenby}},
+         familyi={L\bibinitperiod},
+         given={A.\bibnamedelima N.},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=DCJL}{%
+         family={{Doran}},
+         familyi={D\bibinitperiod},
+         given={C.\bibnamedelima J.\bibnamedelima L.},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={{Heineke}},
+         familyi={H\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{General Relativity and Quantum Cosmology, Astrophysics}
+    \strng{namehash}{LAN+1}
+    \strng{fullhash}{LANDCJLHR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{eid}{gr-qc/0509014}
+    \verb{eprint}
+    \verb 0509014
+    \endverb
+    \field{pages}{gr\bibrangedash qc/0509014}
+    \field{title}{{Analytic solutions to Riemann-squared gravity with
+  background isotropic torsion}}
+    \field{journaltitle}{arXiv e-prints}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{gr-qc}
+    \field{year}{2005}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{2016IJMPS..4060010N}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=NWT}{%
+         family={{Ni}},
+         familyi={N\bibinitperiod},
+         given={Wei-Tou},
+         giveni={W\bibinitperiod-T\bibinitperiod},
+      }}%
+    }
+    \keyw{Spin, polarization, gravity, equivalence principle, electromagnetism,
+  spacetime structure, 04.20.Cv, 04.50.Kd, 04.60.Bc, 04.80.Nn, 11.30.Cp,
+  13.88.+e, 14.80.Va, Fundamental problems and general formalism, Modified
+  theories of gravity, Phenomenology of quantum gravity, Gravitational wave
+  detectors and experiments, Lorentz and Poincare invariance, Polarization in
+  interactions and scattering, High Energy Physics - Phenomenology,
+  Astrophysics - Cosmology and Nongalactic Astrophysics, General Relativity and
+  Quantum Cosmology}
+    \strng{namehash}{NWT1}
+    \strng{fullhash}{NWT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{booktitle}{International Journal of Modern Physics Conference
+  Series}
+    \verb{doi}
+    \verb 10.1142/S2010194516600107
+    \endverb
+    \field{eid}{1660010-146}
+    \verb{eprint}
+    \verb 1501.07696
+    \endverb
+    \field{pages}{1660010\bibrangedash 146}
+    \field{series}{International Journal of Modern Physics Conference Series}
+    \field{title}{{Searches for the Role of Spin and Polarization in Gravity: A
+  Five-Year Update}}
+    \field{volume}{40}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{PhysRev.101.1597}{article}{}
+    \name{author}{1}{}{%
+      {{hash=UR}{%
+         family={Utiyama},
+         familyi={U\bibinitperiod},
+         given={Ryoyu},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{UR1}
+    \strng{fullhash}{UR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \verb{doi}
+    \verb 10.1103/PhysRev.101.1597
+    \endverb
+    \field{issue}{5}
+    \field{pages}{1597\bibrangedash 1607}
+    \field{title}{Invariant Theoretical Interpretation of Interaction}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.101.1597
+    \endverb
+    \field{volume}{101}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1956}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{1984ucp..book.....W}{book}{}
+    \name{author}{1}{}{%
+      {{hash=WRM}{%
+         family={{Wald}},
+         familyi={W\bibinitperiod},
+         given={R.\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WRM1}
+    \strng{fullhash}{WRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{{General relativity}}
+    \field{year}{1984}
+  \endentry
+
+  \entry{2019arXiv190800993Y}{article}{}
+    \name{author}{5}{}{%
+      {{hash=YW}{%
+         family={{Yuan}},
+         familyi={Y\bibinitperiod},
+         given={Wenlong},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=RAG}{%
+         family={{Riess}},
+         familyi={R\bibinitperiod},
+         given={Adam\bibnamedelima G.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=MLM}{%
+         family={{Macri}},
+         familyi={M\bibinitperiod},
+         given={Lucas\bibnamedelima M.},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={{Casertano}},
+         familyi={C\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={{Scolnic}},
+         familyi={S\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Astrophysics - Astrophysics of Galaxies, Astrophysics - Cosmology and
+  Nongalactic Astrophysics}
+    \strng{namehash}{YW+1}
+    \strng{fullhash}{YWRAGMLMCSSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{eid}{arXiv:1908.00993}
+    \verb{eprint}
+    \verb 1908.00993
+    \endverb
+    \field{pages}{arXiv:1908.00993}
+    \field{title}{{Consistent Calibration of the Tip of the Red Giant Branch in
+  the Large Magellanic Cloud on the Hubble Space Telescope Photometric System
+  and a Re-determination of the Hubble Constant}}
+    \field{journaltitle}{arXiv e-prints}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.GA}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+\enddatalist
+\endinput

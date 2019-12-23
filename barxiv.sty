@@ -1,0 +1,65 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{barxiv}[2019 beamer arXiv citations]
+
+\RequirePackage{soul}
+\RequirePackage{ifthen}
+\RequirePackage[nomessages]{fp}
+\RequirePackage{intcalc}
+\RequirePackage{xkeyval}
+
+\newcommand{\hueangle}{}
+\newcommand{\huerate}{}
+\newcommand{\saturationval}{}
+\newcommand{\luminosityval}{}
+
+\DeclareOptionX{hueangletoday}{\renewcommand{\hueangle}{#1}}
+\ExecuteOptionsX{hueangletoday=60}
+\DeclareOptionX{huedegreesperyear}{\renewcommand{\huerate}{#1}}
+\ExecuteOptionsX{huedegreesperyear=3}
+\DeclareOptionX{saturation}{\renewcommand{\saturationval}{#1}}
+\ExecuteOptionsX{saturation=0.3}
+\DeclareOptionX{luminosity}{\renewcommand{\luminosityval}{#1}}
+\ExecuteOptionsX{luminosity=1.}
+\DeclareOptionX*{\PackageWarning{barxiv}{`\CurrentOption' ignored}}
+
+\ProcessOptionsX\relax
+
+\makeatletter
+\let\HL\hl
+\renewcommand\hl{%
+  \let\set@color\beamerorig@set@color
+  \let\reset@color\beamerorig@reset@color
+  \HL}
+\makeatother
+
+\newlength{\mylen}%
+
+\newcommand{\modulo}[2]{%
+  \FPeval{\result}{#1-(#2*trunc(#1/#2,0))}%
+}
+
+\DeclareCiteCommand{\barxiv}
+{\usebibmacro{prenote}}{%
+  \settoheight{\mylen}{B}%
+  \modulo{round(\hueangle/360+\huerate*(2019-\thefield{year})/360,5)}{1}%
+  \definecolor{yearcolour}{hsb}{\result,\saturationval,\luminosityval}%
+  \sethlcolor{yearcolour}%
+    \ifthenelse{\equal{\thefield{eprint}}{}}{%
+      \hl{%
+	\mbox{%
+	  $\vcenter{\hbox{\includegraphics[height=1.5\mylen]{prearxiv.png}}}$%
+	  \textsf{ \usebibmacro{author} (\thefield{year})}%
+	}%
+      }%
+    }{%
+      \hl{%
+	\mbox{%
+	  $\vcenter{\hbox{\includegraphics[height=1.5\mylen]{postarxiv.png}}}$%
+	  \texttt{ \thefield{eprint} [\thefield{eprintclass}]}%
+	}%
+      }%
+    }%
+  }%
+{\multicitedelim}%
+{\usebibmacro{postnote}}
+
