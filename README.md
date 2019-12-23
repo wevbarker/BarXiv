@@ -3,7 +3,7 @@
 ### Beamer arXiv citations that catch the eye 
 ---
 ###### Features
-<img src="presentation.pdf" width="1000">
+<img src="presentation.png" width="1000">
 
 ```
 \documentclass{beamer}
