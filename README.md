@@ -1,6 +1,9 @@
 # :milky_way: Barxiv :milky_way:
 ## Beamer arXiv citations that catch the eye 
 ---
+### Install and use
+
+---
 ### Demonstration 
 Here is a simple `beamer` frame to illustrate `barxiv` in use:
 <img src="presentation.png" width="1000">
@@ -36,7 +39,7 @@ The body is much as you might expect:
 \end{document}
 ```
 ---
-### Demonstration 
+### Tasks 
 Things I want to do
 - Get `matplotlib` colormap options to reflect age of reference
 - Auto update of current year

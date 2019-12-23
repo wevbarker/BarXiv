@@ -1,0 +1,9 @@
+*
+!.gitignore
+!README.md
+!presentation.png
+!barxiv.sty
+!barxiv_icons/
+barxiv_icons/*
+!barxiv_icons/prearxiv.png
+!barxiv_icons/postarxiv.png
