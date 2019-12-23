@@ -3,7 +3,7 @@
 ---
 ### Install and use
 This is a very simple `LaTeX2e` package for the `beamer` class. Still a work in progress, if you want to have a go:
-1. First make sure `pdflatex` is handling your `.bib` file correctly (you can check with a `\cite{}` command), in my case I need to avoid `biber` (current incompatability through `TexLive`), so in my `.tex` file:
+1. First make sure `biblatex` is handling your `.bib` file correctly (you can check with a `\cite{}` command), in my case I need to avoid `biber` (current incompatability through `TexLive`), so in my `.tex` file:
 ```
 \usepackage[backend=bibtex,maxcitenames=1]{biblatex}
 \addbibresource{<my_bibfile_name>.bib}
