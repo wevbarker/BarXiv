@@ -1,8 +1,8 @@
 # :milky_way: Barxiv :milky_way:
+## Beamer arXiv citations that catch the eye 
 ---
-### Beamer arXiv citations that catch the eye 
----
-###### Features
+### Features
+Here is a simple `beamer` frame to illustrate `barxiv` in use:
 <img src="presentation.png" width="1000">
 
 ```
