@@ -1,17 +1,19 @@
 # :milky_way: Barxiv :milky_way:
 ## Beamer arXiv citations that catch the eye 
 ---
-### Features
+### Demonstration 
 Here is a simple `beamer` frame to illustrate `barxiv` in use:
 <img src="presentation.png" width="1000">
-
+This frame was generated with `presentation.tex` as follows (note I don't include `presentation.bib`). The preamble explicitly contains all current `barxiv` options:
 ```
 \documentclass{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage[backend=bibtex,maxcitenames=1]{biblatex}
 \addbibresource{presentation.bib}
 \usepackage[hue angle today = 60, hue degrees per year = 2, saturation = 0.3, luminosity = 1.]{barxiv}
-
+```
+The body is much as you might expect:
+```
 \begin{document}
 \tiny
 \begin{frame}
@@ -33,7 +35,9 @@ Here is a simple `beamer` frame to illustrate `barxiv` in use:
 
 \end{document}
 ```
-
-- basic list 
-  - subitem 
-  -  [here](hyperlink). 
+---
+### Demonstration 
+Things I want to do
+- Get `matplotlib` colormap options to reflect age of reference
+- Auto update of current year
+- wrap it up and leave it on [CTAN](https://ctan.org/?lang=en)
