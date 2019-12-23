@@ -3,7 +3,7 @@
 ### Beamer arXiv citations that catch the eye 
 ---
 ###### :train2: Itinerary :ship:
-![alt text](https://github.com/wevbarker/barxiv/prearxiv.png)
+![alt text](prearxiv.png)
 basic list
 - basic list 
   - subitem 
