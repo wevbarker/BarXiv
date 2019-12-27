@@ -1,0 +1,4448 @@
+% Created by datatooltk on 27 Dec 2019
+\DTLifdbexists{BuGn}%
+{\PackageError{datatool}{Database `BuGn'
+already exists}{}%
+\aftergroup\endinput}{}%
+\bgroup\makeatletter
+\dtl@message{Reconstructing database
+`BuGn'}%
+\expandafter\global\expandafter
+\newtoks\csname dtlkeys@BuGn\endcsname
+\expandafter\global
+ \csname dtlkeys@BuGn\endcsname={%
+%
+% header block for column 1
+\db@plist@elt@w %
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@key@id@w index%
+\db@key@id@end@ %
+\db@type@id@w 1%
+\db@type@id@end@ %
+\db@header@id@w index%
+\db@header@id@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@plist@elt@end@ %
+% header block for column 2
+\db@plist@elt@w %
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@key@id@w red%
+\db@key@id@end@ %
+\db@type@id@w 2%
+\db@type@id@end@ %
+\db@header@id@w red%
+\db@header@id@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@plist@elt@end@ %
+% header block for column 3
+\db@plist@elt@w %
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@key@id@w green%
+\db@key@id@end@ %
+\db@type@id@w 2%
+\db@type@id@end@ %
+\db@header@id@w green%
+\db@header@id@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@plist@elt@end@ %
+% header block for column 4
+\db@plist@elt@w %
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@key@id@w blue%
+\db@key@id@end@ %
+\db@type@id@w 2%
+\db@type@id@end@ %
+\db@header@id@w blue%
+\db@header@id@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@plist@elt@end@ %
+% header block for column 5
+\db@plist@elt@w %
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@key@id@w alpha%
+\db@key@id@end@ %
+\db@type@id@w 2%
+\db@type@id@end@ %
+\db@header@id@w alpha%
+\db@header@id@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@plist@elt@end@ %
+}%
+\expandafter\global\expandafter
+\newtoks\csname dtldb@BuGn\endcsname
+\expandafter\global
+\csname dtldb@BuGn\endcsname={%
+%
+% Start of row 1
+\db@row@elt@w %
+\db@row@id@w 1%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 0%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 1
+\db@row@id@w 1%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 2
+\db@row@elt@w %
+\db@row@id@w 2%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 1%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.9686274509803922%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9882352941176471%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9921568627450981%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 2
+\db@row@id@w 2%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 3
+\db@row@elt@w %
+\db@row@id@w 3%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 2%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.9641983852364475%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9865128796616687%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9911726259131104%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 3
+\db@row@id@w 3%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 4
+\db@row@elt@w %
+\db@row@id@w 4%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 3%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.9575547866205306%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9839292579777009%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9896962706651288%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 4
+\db@row@id@w 4%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 5
+\db@row@elt@w %
+\db@row@id@w 5%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 4%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.953125720876586%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9822068435217225%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9887120338331411%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 5
+\db@row@id@w 5%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 6
+\db@row@elt@w %
+\db@row@id@w 6%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 5%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.946482122260669%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9796232218377547%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9872356785851596%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 6
+\db@row@id@w 6%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 7
+\db@row@elt@w %
+\db@row@id@w 7%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 6%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.9420530565167243%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9779008073817763%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9862514417531718%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 7
+\db@row@id@w 7%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 8
+\db@row@elt@w %
+\db@row@id@w 8%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 7%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.9354094579008074%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9753171856978086%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9847750865051903%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 8
+\db@row@id@w 8%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 9
+\db@row@elt@w %
+\db@row@id@w 9%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 8%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.9287658592848904%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9727335640138408%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9832987312572088%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 9
+\db@row@id@w 9%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 10
+\db@row@elt@w %
+\db@row@id@w 10%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 9%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.9243367935409458%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9710111495578624%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.982314494425221%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 10
+\db@row@id@w 10%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 11
+\db@row@elt@w %
+\db@row@id@w 11%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 10%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.9176931949250289%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9684275278738947%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9808381391772395%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 11
+\db@row@id@w 11%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 12
+\db@row@elt@w %
+\db@row@id@w 12%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 11%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.9132641291810842%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9667051134179162%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9798539023452518%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 12
+\db@row@id@w 12%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 13
+\db@row@elt@w %
+\db@row@id@w 13%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 12%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.9066205305651672%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9641214917339485%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9783775470972702%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 13
+\db@row@id@w 13%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 14
+\db@row@elt@w %
+\db@row@id@w 14%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 13%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.8999769319492503%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9615378700499808%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9769011918492887%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 14
+\db@row@id@w 14%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 15
+\db@row@elt@w %
+\db@row@id@w 15%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 14%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.8945790080738178%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9595386389850058%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9738408304498269%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 15
+\db@row@id@w 15%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 16
+\db@row@elt@w %
+\db@row@id@w 16%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 15%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.8853517877739331%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9562168396770473%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9668281430219147%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 16
+\db@row@id@w 16%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 17
+\db@row@elt@w %
+\db@row@id@w 17%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 16%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.87920030757401%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.954002306805075%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9621530180699731%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 17
+\db@row@id@w 17%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 18
+\db@row@elt@w %
+\db@row@id@w 18%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 17%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.8699730872741254%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9506805074971165%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9551403306420607%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 18
+\db@row@id@w 18%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 19
+\db@row@elt@w %
+\db@row@id@w 19%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 18%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.8638216070742023%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9484659746251443%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9504652056901192%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 19
+\db@row@id@w 19%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 20
+\db@row@elt@w %
+\db@row@id@w 20%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 19%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.8545943867743176%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9451441753171858%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9434525182622069%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 20
+\db@row@id@w 20%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 21
+\db@row@elt@w %
+\db@row@id@w 21%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 20%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.845367166474433%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9418223760092272%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9364398308342945%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 21
+\db@row@id@w 21%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 22
+\db@row@elt@w %
+\db@row@id@w 22%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 21%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.8392156862745098%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.939607843137255%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9317647058823529%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 22
+\db@row@id@w 22%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 23
+\db@row@elt@w %
+\db@row@id@w 23%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 22%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.8299884659746252%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9362860438292965%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9247520184544407%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 23
+\db@row@id@w 23%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 24
+\db@row@elt@w %
+\db@row@id@w 24%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 23%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.8238369857747021%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9340715109573241%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.920076893502499%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 24
+\db@row@id@w 24%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 25
+\db@row@elt@w %
+\db@row@id@w 25%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 24%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.8146097654748174%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9307497116493657%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9130642060745867%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 25
+\db@row@id@w 25%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 26
+\db@row@elt@w %
+\db@row@id@w 26%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 25%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.8053825451749328%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9274279123414072%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9060515186466743%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 26
+\db@row@id@w 26%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 27
+\db@row@elt@w %
+\db@row@id@w 27%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 26%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.7984313725490196%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9248750480584391%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.9010688196847366%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 27
+\db@row@id@w 27%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 28
+\db@row@elt@w %
+\db@row@id@w 28%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 27%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.779607843137255%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9174932718185314%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.8903652441368705%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 28
+\db@row@id@w 28%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 29
+\db@row@elt@w %
+\db@row@id@w 29%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 28%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.7670588235294118%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9125720876585929%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.8832295271049596%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 29
+\db@row@id@w 29%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 30
+\db@row@elt@w %
+\db@row@id@w 30%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 29%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.7482352941176471%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9051903114186851%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.8725259515570934%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 30
+\db@row@id@w 30%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 31
+\db@row@elt@w %
+\db@row@id@w 31%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 30%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.7356862745098041%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.9002691272587466%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.8653902345251827%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 31
+\db@row@id@w 31%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 32
+\db@row@elt@w %
+\db@row@id@w 32%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 31%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.7168627450980393%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.8928873510188389%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.8546866589773164%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 32
+\db@row@id@w 32%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 33
+\db@row@elt@w %
+\db@row@id@w 33%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 32%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.6980392156862745%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.8855055747789312%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.8439830834294502%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 33
+\db@row@id@w 33%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 34
+\db@row@elt@w %
+\db@row@id@w 34%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 33%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.6854901960784314%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.8805843906189927%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.8368473663975394%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 34
+\db@row@id@w 34%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 35
+\db@row@elt@w %
+\db@row@id@w 35%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 34%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.6666666666666667%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.873202614379085%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.8261437908496732%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 35
+\db@row@id@w 35%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 36
+\db@row@elt@w %
+\db@row@id@w 36%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 35%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.6541176470588235%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.8682814302191465%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.8190080738177624%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 36
+\db@row@id@w 36%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 37
+\db@row@elt@w %
+\db@row@id@w 37%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 36%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.6352941176470589%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.8608996539792388%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.8083044982698963%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 37
+\db@row@id@w 37%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 38
+\db@row@elt@w %
+\db@row@id@w 38%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 37%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.6164705882352941%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.8535178777393311%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.79760092272203%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 38
+\db@row@id@w 38%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 39
+\db@row@elt@w %
+\db@row@id@w 39%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 38%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.6039215686274509%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.8485966935793925%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.7904652056901191%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 39
+\db@row@id@w 39%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 40
+\db@row@elt@w %
+\db@row@id@w 40%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 39%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.5850980392156864%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.8406305267204921%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.7774240676662822%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 40
+\db@row@id@w 40%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 41
+\db@row@elt@w %
+\db@row@id@w 41%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 40%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.5725490196078431%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.8352172241445598%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.7683198769703959%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 41
+\db@row@id@w 41%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 42
+\db@row@elt@w %
+\db@row@id@w 42%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 41%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.5537254901960784%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.8270972702806613%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.7546635909265667%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 42
+\db@row@id@w 42%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 43
+\db@row@elt@w %
+\db@row@id@w 43%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 42%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.5349019607843138%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.8189773164167629%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.7410073048827375%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 43
+\db@row@id@w 43%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 44
+\db@row@elt@w %
+\db@row@id@w 44%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 43%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.5223529411764706%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.8135640138408304%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.7319031141868512%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 44
+\db@row@id@w 44%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 45
+\db@row@elt@w %
+\db@row@id@w 45%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 44%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.5035294117647059%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.8054440599769319%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.7182468281430219%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 45
+\db@row@id@w 45%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 46
+\db@row@elt@w %
+\db@row@id@w 46%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 45%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.49098039215686273%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.8000307574009996%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.7091426374471357%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 46
+\db@row@id@w 46%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 47
+\db@row@elt@w %
+\db@row@id@w 47%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 46%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.47215686274509805%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.7919108035371011%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.6954863514033065%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 47
+\db@row@id@w 47%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 48
+\db@row@elt@w %
+\db@row@id@w 48%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 47%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.4596078431372549%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.7864975009611688%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.6863821607074203%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 48
+\db@row@id@w 48%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 49
+\db@row@elt@w %
+\db@row@id@w 49%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 48%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.4407843137254902%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.7783775470972703%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.6727258746635909%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 49
+\db@row@id@w 49%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 50
+\db@row@elt@w %
+\db@row@id@w 50%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 49%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.4219607843137255%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.7702575932333717%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.6590695886197617%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 50
+\db@row@id@w 50%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 51
+\db@row@elt@w %
+\db@row@id@w 51%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 50%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.40941176470588236%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.7648442906574394%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.6499653979238755%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 51
+\db@row@id@w 51%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 52
+\db@row@elt@w %
+\db@row@id@w 52%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 51%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.3931718569780854%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.7570934256055363%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.6346482122260669%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 52
+\db@row@id@w 52%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 53
+\db@row@elt@w %
+\db@row@id@w 53%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 52%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.3840676662821992%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.7521722414455978%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.6233294886582085%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 53
+\db@row@id@w 53%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 54
+\db@row@elt@w %
+\db@row@id@w 54%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 53%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.3704113802383699%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.7447904652056901%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.6063514033064207%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 54
+\db@row@id@w 54%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 55
+\db@row@elt@w %
+\db@row@id@w 55%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 54%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.35675509419454055%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.7374086889657824%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.5893733179546329%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 55
+\db@row@id@w 55%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 56
+\db@row@elt@w %
+\db@row@id@w 56%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 55%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.34765090349865435%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.7324875048058439%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.5780545943867743%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 56
+\db@row@id@w 56%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 57
+\db@row@elt@w %
+\db@row@id@w 57%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 56%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.33399461745482506%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.7251057285659361%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.5610765090349866%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 57
+\db@row@id@w 57%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 58
+\db@row@elt@w %
+\db@row@id@w 58%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 57%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.32489042675893887%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.7201845444059977%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.5497577854671281%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 58
+\db@row@id@w 58%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 59
+\db@row@elt@w %
+\db@row@id@w 59%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 58%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.3112341407151096%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.71280276816609%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.5327797001153403%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 59
+\db@row@id@w 59%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 60
+\db@row@elt@w %
+\db@row@id@w 60%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 59%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.3021299500192234%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.7078815840061514%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.5214609765474818%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 60
+\db@row@id@w 60%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 61
+\db@row@elt@w %
+\db@row@id@w 61%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 60%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.2884736639753941%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.7004998077662438%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.504482891195694%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 61
+\db@row@id@w 61%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 62
+\db@row@elt@w %
+\db@row@id@w 62%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 61%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.2748173779315648%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.693118031526336%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.4875048058439062%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 62
+\db@row@id@w 62%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 63
+\db@row@elt@w %
+\db@row@id@w 63%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 62%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.2657131872356786%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.6881968473663975%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.4761860822760477%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 63
+\db@row@id@w 63%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 64
+\db@row@elt@w %
+\db@row@id@w 64%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 63%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.25259515570934254%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.6796616685890042%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.4589773164167628%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 64
+\db@row@id@w 64%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 65
+\db@row@elt@w %
+\db@row@id@w 65%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 64%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.2452133794694348%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.6710495963091119%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.4469204152249135%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 65
+\db@row@id@w 65%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 66
+\db@row@elt@w %
+\db@row@id@w 66%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 65%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.23414071510957324%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.6581314878892733%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.42883506343713956%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 66
+\db@row@id@w 66%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 67
+\db@row@elt@w %
+\db@row@id@w 67%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 66%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.22306805074971164%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.6452133794694348%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.41074971164936563%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 67
+\db@row@id@w 67%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 68
+\db@row@elt@w %
+\db@row@id@w 68%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 67%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.21568627450980393%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.6366013071895424%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.39869281045751637%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 68
+\db@row@id@w 68%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 69
+\db@row@elt@w %
+\db@row@id@w 69%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 68%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.20461361014994234%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.6236831987697039%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.38060745866974244%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 69
+\db@row@id@w 69%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 70
+\db@row@elt@w %
+\db@row@id@w 70%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 69%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.1972318339100346%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.6150711264898117%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.3685505574778931%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 70
+\db@row@id@w 70%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 71
+\db@row@elt@w %
+\db@row@id@w 71%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 70%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.186159169550173%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.602153018069973%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.3504652056901192%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 71
+\db@row@id@w 71%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 72
+\db@row@elt@w %
+\db@row@id@w 72%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 71%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.17508650519031144%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.5892349096501346%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.33237985390234526%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 72
+\db@row@id@w 72%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 73
+\db@row@elt@w %
+\db@row@id@w 73%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 72%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.1677047289504037%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.5806228373702422%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.32032295271049593%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 73
+\db@row@id@w 73%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 74
+\db@row@elt@w %
+\db@row@id@w 74%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 73%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.1566320645905421%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.5677047289504037%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.302237600922722%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 74
+\db@row@id@w 74%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 75
+\db@row@elt@w %
+\db@row@id@w 75%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 74%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.14925028835063436%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.5590926566705113%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.2901806997308727%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 75
+\db@row@id@w 75%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 76
+\db@row@elt@w %
+\db@row@id@w 76%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 75%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.13817762399077277%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.5461745482506728%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.27209534794309875%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 76
+\db@row@id@w 76%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 77
+\db@row@elt@w %
+\db@row@id@w 77%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 76%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.1297193387158785%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.538638985005767%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.26520569011918493%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 77
+\db@row@id@w 77%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 78
+\db@row@elt@w %
+\db@row@id@w 78%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 77%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.11680123029604011%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.5275663206459055%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.25597846981930034%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 78
+\db@row@id@w 78%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 79
+\db@row@elt@w %
+\db@row@id@w 79%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 78%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.10388312187620147%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.5164936562860438%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.2467512495194156%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 79
+\db@row@id@w 79%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 80
+\db@row@elt@w %
+\db@row@id@w 80%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 79%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.09527104959630911%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.5091118800461361%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.24059976931949248%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 80
+\db@row@id@w 80%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 81
+\db@row@elt@w %
+\db@row@id@w 81%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 80%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.0823529411764706%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.49803921568627446%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.23137254901960783%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 81
+\db@row@id@w 81%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 82
+\db@row@elt@w %
+\db@row@id@w 82%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 81%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.07374086889657824%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.49065743944636675%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.22522106881968473%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 82
+\db@row@id@w 82%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 83
+\db@row@elt@w %
+\db@row@id@w 83%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 82%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.06082276047673972%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.47958477508650516%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.21599384851980008%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 83
+\db@row@id@w 83%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 84
+\db@row@elt@w %
+\db@row@id@w 84%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 83%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.04790465205690131%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.46851211072664367%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.20676662821991548%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 84
+\db@row@id@w 84%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 85
+\db@row@elt@w %
+\db@row@id@w 85%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 84%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.03929257977700884%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.46113033448673585%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.2006151480199923%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 85
+\db@row@id@w 85%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 86
+\db@row@elt@w %
+\db@row@id@w 86%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 85%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.026374471357170318%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.45005767012687425%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.19138792772010765%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 86
+\db@row@id@w 86%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 87
+\db@row@elt@w %
+\db@row@id@w 87%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 86%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.017762399077277974%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.44267589388696654%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.18523644752018453%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 87
+\db@row@id@w 87%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 88
+\db@row@elt@w %
+\db@row@id@w 88%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 87%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.004844290657439437%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.43160322952710495%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.17600922722029988%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 88
+\db@row@id@w 88%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 89
+\db@row@elt@w %
+\db@row@id@w 89%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 88%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.42303729334871204%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.170718954248366%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 89
+\db@row@id@w 89%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 90
+\db@row@elt@w %
+\db@row@id@w 90%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 89%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.4079046520569012%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.16444444444444445%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 90
+\db@row@id@w 90%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 91
+\db@row@elt@w %
+\db@row@id@w 91%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 90%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.39277201076509033%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.15816993464052287%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 91
+\db@row@id@w 91%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 92
+\db@row@elt@w %
+\db@row@id@w 92%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 91%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.38268358323721646%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.15398692810457515%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 92
+\db@row@id@w 92%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 93
+\db@row@elt@w %
+\db@row@id@w 93%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 92%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.3675509419454056%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.1477124183006536%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 93
+\db@row@id@w 93%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 94
+\db@row@elt@w %
+\db@row@id@w 94%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 93%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.3574625144175317%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.14352941176470588%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 94
+\db@row@id@w 94%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 95
+\db@row@elt@w %
+\db@row@id@w 95%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 94%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.3423298731257209%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.13725490196078433%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 95
+\db@row@id@w 95%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 96
+\db@row@elt@w %
+\db@row@id@w 96%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 95%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.32719723183391003%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.13098039215686275%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 96
+\db@row@id@w 96%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 97
+\db@row@elt@w %
+\db@row@id@w 97%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 96%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.31710880430603616%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.12679738562091503%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 97
+\db@row@id@w 97%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 98
+\db@row@elt@w %
+\db@row@id@w 98%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 97%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.30197616301422525%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.12052287581699346%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 98
+\db@row@id@w 98%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 99
+\db@row@elt@w %
+\db@row@id@w 99%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 98%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.2918877354863514%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.11633986928104575%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 99
+\db@row@id@w 99%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 100
+\db@row@elt@w %
+\db@row@id@w 100%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 99%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.2767550941945406%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.11006535947712418%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 100
+\db@row@id@w 100%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+% Start of row 101
+\db@row@elt@w %
+\db@row@id@w 101%
+\db@row@id@end@ %
+% Column 1
+\db@col@id@w 1%
+\db@col@id@end@ %
+\db@col@elt@w 100%
+\db@col@elt@end@ %
+\db@col@id@w 1%
+\db@col@id@end@ %
+% Column 2
+\db@col@id@w 2%
+\db@col@id@end@ %
+\db@col@elt@w 0.0%
+\db@col@elt@end@ %
+\db@col@id@w 2%
+\db@col@id@end@ %
+% Column 3
+\db@col@id@w 3%
+\db@col@id@end@ %
+\db@col@elt@w 0.26666666666666666%
+\db@col@elt@end@ %
+\db@col@id@w 3%
+\db@col@id@end@ %
+% Column 4
+\db@col@id@w 4%
+\db@col@id@end@ %
+\db@col@elt@w 0.10588235294117647%
+\db@col@elt@end@ %
+\db@col@id@w 4%
+\db@col@id@end@ %
+% Column 5
+\db@col@id@w 5%
+\db@col@id@end@ %
+\db@col@elt@w 1.0%
+\db@col@elt@end@ %
+\db@col@id@w 5%
+\db@col@id@end@ %
+% End of row 101
+\db@row@id@w 101%
+\db@row@id@end@ %
+\db@row@elt@end@ %
+}%
+\expandafter\global
+ \expandafter\newcount\csname dtlrows@BuGn\endcsname
+\expandafter\global
+ \csname dtlrows@BuGn\endcsname=101\relax
+\expandafter\global
+ \expandafter\newcount\csname dtlcols@BuGn\endcsname
+\expandafter\global
+ \csname dtlcols@BuGn\endcsname=5\relax
+\expandafter
+ \gdef\csname dtl@ci@BuGn@index\endcsname{1}%
+\expandafter
+ \gdef\csname dtl@ci@BuGn@red\endcsname{2}%
+\expandafter
+ \gdef\csname dtl@ci@BuGn@green\endcsname{3}%
+\expandafter
+ \gdef\csname dtl@ci@BuGn@blue\endcsname{4}%
+\expandafter
+ \gdef\csname dtl@ci@BuGn@alpha\endcsname{5}%
+\egroup
+\def\dtllastloadeddb{BuGn}
