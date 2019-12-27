@@ -2,8 +2,8 @@
 ## Beamer arXiv citations aged with Matplotlib colormaps
 ---
 ### Install and use
-This is a very simple `LaTeX2e` package for the `beamer` class. Still a work in progress, if you want to have a go:
-1. **Download** `barxiv.tar.gz` and **unzip** to your `.tex` and `.bib` working directory
+This is a very simple `LaTeX2e` package for the `beamer` class. It enables audience-friendly citations of papers which may or may not be on the [arXiv](https://arxiv.org). These are highlighted according to the age of the reference, according to the ubiquitous colormaps of Matplotlib.
+1. **Download** `barxiv.tar.gz` and **unzip** to your `.tex` and `.bib` working directory:
 ```
 tar -C <working_directory_name>/ -xvf barxiv.tar.gz
 ```
@@ -20,6 +20,12 @@ tar -C <working_directory_name>/ -xvf barxiv.tar.gz
 Here is a simple `beamer` frame to illustrate `barxiv` in use:
 <img src="presentation.png" width="1000">
 This frame was generated with `presentation.tex` as follows (note I don't include `presentation.bib`). The preamble explicitly contains all current `barxiv` options:
+```
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[bib file = presentation.bib, cmap = rainbow, saturation = 40]{barxiv}
+```
+The body is much as you would expect:
 ```
 \begin{document}
 \tiny
