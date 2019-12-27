@@ -11,7 +11,9 @@ tar -C <working_directory_name>/ -xvf barxiv.tar.gz
 ```
 \usepackage[bib file = <bib_file_name>.bib, cmap = rainbow, saturation = 40]{barxiv}
 ```
-3. **Try** putting `\barxiv{<bibtex_label>}` in place of `\cite{<bibtex_label>}`...
+3. **Try** putting `\barxiv{<bibtex_label>}` in place of `\cite{<bibtex_label>}` and twiddling the options:
+ - do
+ - fo
 ---
 ### Demonstration 
 Here is a simple `beamer` frame to illustrate `barxiv` in use:
