@@ -12,8 +12,9 @@ tar -C <working_directory_name>/ -xvf barxiv.tar.gz
 \usepackage[bib file = <bib_file_name>.bib, cmap = rainbow, saturation = 40]{barxiv}
 ```
 3. **Try** putting `\barxiv{<bibtex_label>}` in place of `\cite{<bibtex_label>}` and twiddling the options:
-   - do
-   - fo
+   - `bib file` or `bibfile`: self-explanatory
+   - `cmap`: your favorite Matplotlib colormap such as `viridis` (default), `cubehelix` or `spring` -- a full list can be found [here](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html)
+   - `saturation`: a percentage value, since many colormaps are rather dark
 ---
 ### Demonstration 
 Here is a simple `beamer` frame to illustrate `barxiv` in use:
