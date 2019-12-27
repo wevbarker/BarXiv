@@ -1,18 +1,17 @@
-# <img src="barxiv_icons/postarxiv.png" width="50"> Barxiv <img src="barxiv_icons/prearxiv.png" width="50">
-## Beamer arXiv citations that catch the eye 
+# <img src="barxiv_icons/postarxiv.png" width="30"> Barxiv <img src="barxiv_icons/prearxiv.png" width="30">
+## Beamer arXiv citations aged with Matplotlib colormaps
 ---
 ### Install and use
 This is a very simple `LaTeX2e` package for the `beamer` class. Still a work in progress, if you want to have a go:
-1. First make sure `biblatex` is handling your `.bib` file correctly (you can check with a `\cite{}` command), in my case I need to avoid `biber` (current incompatability through `TexLive`), so in my `.tex` file:
+1. **Download** `barxiv.tar.gz` and **unzip** to your `.tex` and `.bib` working directory
 ```
-\usepackage[backend=bibtex,maxcitenames=1]{biblatex}
-\addbibresource{<my_bibfile_name>.bib}
+tar -C <working_directory_name>/ -xvf barxiv.tar.gz
 ```
-2. Download `barxiv.sty` and `barxiv_icons` to your `.tex` and `.bib` directory and add this to the **end** of your preamble:
+2. **Load** the package into your preamble:
 ```
-\usepackage{barxiv}
+\usepackage[bib file = presentation.bib, cmap = rainbow, saturation = 40]{barxiv}
 ```
-3. Try putting `\barxiv{}` in place of `\cite{}`, twiddle the various options...
+3. **Try** putting `\barxiv{}` in place of `\cite{}`...
 ---
 ### Demonstration 
 Here is a simple `beamer` frame to illustrate `barxiv` in use:
