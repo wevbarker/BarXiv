@@ -1,4 +1,4 @@
-# :milky_way: Barxiv :milky_way: <img src="barxiv_icons/prearxiv.png" width="10">
+# <img src="barxiv_icons/postarxiv.png" width="50"> Barxiv <img src="barxiv_icons/prearxiv.png" width="50">
 ## Beamer arXiv citations that catch the eye 
 ---
 ### Install and use
