@@ -5,24 +5,31 @@
 \RequirePackage{ifthen}
 \RequirePackage[nomessages]{fp}
 \RequirePackage{intcalc}
-\RequirePackage{xkeyval}
+%\RequirePackage{xkeyval}
+\RequirePackage{etoolbox}
+\RequirePackage{datatool}
+\RequirePackage{totcount}
+\RequirePackage[backend=bibtex,maxcitenames=1]{biblatex}
 
-\newcommand{\hueangle}{}
-\newcommand{\huerate}{}
-\newcommand{\saturationval}{}
-\newcommand{\luminosityval}{}
+\AtBeginDocument{%
+  \newcounter{oldest}%
+  \setcounter{oldest}{5}%
+  \regtotcounter{oldest}%
+}
 
-\DeclareOptionX{hueangletoday}{\renewcommand{\hueangle}{#1}}
-\ExecuteOptionsX{hueangletoday=60}
-\DeclareOptionX{huedegreesperyear}{\renewcommand{\huerate}{#1}}
-\ExecuteOptionsX{huedegreesperyear=3}
-\DeclareOptionX{saturation}{\renewcommand{\saturationval}{#1}}
-\ExecuteOptionsX{saturation=0.3}
-\DeclareOptionX{luminosity}{\renewcommand{\luminosityval}{#1}}
-\ExecuteOptionsX{luminosity=1.}
+\newcommand{\bibresource}{}
+\newcommand{\thecmap}{}
+
+
+\DeclareOptionX{bibfile}{\renewcommand{\bibresource}{#1}}
+\ExecuteOptionsX{bibfile=nobibbro}
+\DeclareOptionX{cmap}{\renewcommand{\thecmap}{colour_tables/#1.dbtex}}
+\ExecuteOptionsX{cmap=viridis}
 \DeclareOptionX*{\PackageWarning{barxiv}{`\CurrentOption' ignored}}
-
 \ProcessOptionsX\relax
+
+\addbibresource{\bibresource}
+\DTLloaddbtex{\cmapdb}{\thecmap}
 
 \makeatletter
 \let\HL\hl
@@ -32,29 +39,29 @@
   \HL}
 \makeatother
 
-\newlength{\mylen}%
+\newlength{\arxiviconheight}%
 
-\newcommand{\modulo}[2]{%
-  \FPeval{\result}{#1-(#2*trunc(#1/#2,0))}%
-}
-
-\DeclareCiteCommand{\barxiv}
+\DeclareCiteCommand{\barxiv}%
 {\usebibmacro{prenote}}{%
-  \settoheight{\mylen}{B}%
-  \modulo{round(\hueangle/360+\huerate*(2019-\thefield{year})/360,5)}{1}%
-  \definecolor{yearcolour}{hsb}{\result,\saturationval,\luminosityval}%
+  \FPeval{\calculatedage}{trunc(2019-\thefield{year},0)}%
+  \ifthenelse{\theoldest<\calculatedage}{\setcounter{oldest}{\calculatedage}}{}%
+  \FPeval{\ages}{trunc(2+95*(2019-\thefield{year})/\total{oldest},0)}%
+  \settoheight{\arxiviconheight}{B}%
+  \FPeval{\result}{trunc(2019-\thefield{year}+3,0)}%
+  \DTLassign{\cmapdb}{\ages}{\reds=red,\greens=green,\blues=blue}%
+  \definecolor{yearcolour}{rgb}{\reds,\greens,\blues}%
   \sethlcolor{yearcolour}%
     \ifthenelse{\equal{\thefield{eprint}}{}}{%
       \hl{%
 	\mbox{%
-	  $\vcenter{\hbox{\includegraphics[height=1.5\mylen]{barxiv_icons/prearxiv.png}}}$%
+	  $\vcenter{\hbox{\includegraphics[height=1.5\arxiviconheight]{prearxiv.png}}}$%
 	  \textsf{ \usebibmacro{author} (\thefield{year})}%
 	}%
       }%
     }{%
       \hl{%
 	\mbox{%
-	  $\vcenter{\hbox{\includegraphics[height=1.5\mylen]{barxiv_icons/postarxiv.png}}}$%
+	  $\vcenter{\hbox{\includegraphics[height=1.5\arxiviconheight]{postarxiv.png}}}$%
 	  \texttt{ \thefield{eprint} [\thefield{eprintclass}]}%
 	}%
       }%
