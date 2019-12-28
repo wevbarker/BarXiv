@@ -1,4 +1,4 @@
-# <img src="barxiv_icons/postarxiv.png" width="30"> Barxiv <img src="barxiv_icons/prearxiv.png" width="30">
+# <img src="barxiv_icons/postarxiv.png" width="30"> BarXiv <img src="barxiv_icons/prearxiv.png" width="30">
 ## Beamer arXiv citations aged with Matplotlib colormaps
 ---
 ### Install and use
