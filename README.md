@@ -2,7 +2,7 @@
 ## Beamer arXiv citations aged with Matplotlib colormaps
 ---
 ### Install and use
-This is a very simple `LaTeX2e` package for the `beamer` class. It enables audience-friendly citations of papers which may or may not be on the [arXiv](https://arxiv.org). These are highlighted according to the age of the reference, according to the ubiquitous colormaps of Matplotlib.
+BarXiv is a very simple `LaTeX2e` package for the `beamer` class. It enables audience-friendly citations of papers which may or may not be on the [arXiv](https://arxiv.org). These are highlighted according to the age of the reference, according to the ubiquitous colormaps of Matplotlib. BarXiv **does not need** Python.
 1. **Download** `barxiv.tar.gz` and **unzip** to your `.tex` and `.bib` working directory:
 ```
 tar -C <working_directory_name>/ -xvf barxiv.tar.gz
