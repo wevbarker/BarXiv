@@ -1,13 +1,9 @@
 /*
 /*/
 !/colour_tables/
+!/barxiv_icons/
 !/sample_slides/
 !/.gitignore
 !/README.md
-!/presentation.png
 !/barxiv.tar.gz
 !/barxiv.sty
-!/barxiv_icons/
-/barxiv_icons/*
-!/barxiv_icons/prearxiv.png
-!/barxiv_icons/postarxiv.png

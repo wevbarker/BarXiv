@@ -18,7 +18,7 @@ tar -C <working_directory_name>/ -xvf barxiv.tar.gz
 ---
 ### Demonstration 
 Here is a simple `beamer` frame to illustrate `barxiv` in use:
-<img src="presentation.png" width="1000">
+<img src="sample_slides/hsv.png" width="400"><img src="sample_slides/spring.png" width="400">
 This frame was generated with `presentation.tex` as follows (note I don't include `presentation.bib`). The preamble explicitly contains all current `barxiv` options:
 ```
 \documentclass{beamer}
