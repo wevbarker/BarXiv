@@ -17,8 +17,9 @@ tar -C <working_directory_name>/ -xvf barxiv.tar.gz
    - `saturation`: a percentage value, since many colormaps are rather dark
 ---
 ### Demonstration 
-Here is a simple `beamer` frame to illustrate `barxiv` in use:
-<img src="sample_slides/hsv.png" width="400"><img src="sample_slides/spring.png" width="400">
+Here is a simple `beamer` frame to illustrate `barxiv` in use:\
+<img src="sample_slides/hsv.png" width="400"><img src="sample_slides/spring.png" width="400">\
+<img src="sample_slides/summer.png" width="400"><img src="sample_slides/autumn.png" width="400">\
 This frame was generated with `presentation.tex` as follows (note I don't include `presentation.bib`). The preamble explicitly contains all current `barxiv` options:
 ```
 \documentclass{beamer}
